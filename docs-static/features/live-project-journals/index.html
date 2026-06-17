@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Live Project Journals | Devmaniac Docs</title>
+  <meta
+    name="description"
+    content="Learn how Devmaniac live project journals help developers document coding progress, bugs, milestones, deployments, architecture decisions, and proof of work."
+  />
+  <link rel="canonical" href="https://docs.devmaniac.com/features/live-project-journals/" />
+
+  <meta property="og:title" content="Live Project Journals | Devmaniac Docs" />
+  <meta
+    property="og:description"
+    content="Understand live project journals on Devmaniac and how they turn project updates into visible developer proof of work."
+  />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.devmaniac.com/features/live-project-journals/" />
+
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="/">Devmaniac Docs</a>
+
+      <div class="nav-links">
+        <a href="https://devmaniac.com">Main App</a>
+        <a href="/getting-started/">Getting Started</a>
+        <a href="/concepts/live-projects/">Concepts</a>
+        <a href="/guides/how-to-build-a-developer-portfolio/">Guides</a>
+        <a href="/roadmap/">Roadmap</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="doc-layout">
+    <aside class="sidebar">
+      <p class="sidebar-title">Getting Started</p>
+      <a href="/getting-started/what-is-devmaniac/">What is Devmaniac?</a>
+      <a href="/getting-started/create-your-profile/">Create your profile</a>
+      <a href="/getting-started/add-your-first-live-project/">Add your first live project</a>
+      <a href="/getting-started/post-your-first-journal/">Post your first journal</a>
+
+      <p class="sidebar-title">Concepts</p>
+      <a href="/concepts/live-projects/">Live projects</a>
+      <a href="/concepts/finished-projects/">Finished projects</a>
+      <a href="/concepts/build-in-public/">Build in public</a>
+      <a href="/concepts/proof-of-work/">Proof of work</a>
+      <a href="/concepts/developer-portfolio/">Developer portfolio</a>
+
+      <p class="sidebar-title">Guides</p>
+      <a href="/guides/how-to-build-a-developer-portfolio/">How to build a developer portfolio</a>
+      <a href="/guides/how-to-document-your-coding-progress/">How to document your coding progress</a>
+      <a href="/guides/how-to-showcase-unfinished-projects/">How to showcase unfinished projects</a>
+      <a href="/guides/how-to-get-feedback-on-side-projects/">How to get feedback on side projects</a>
+
+      <p class="sidebar-title">Features</p>
+      <a href="/features/profiles/">Profiles</a>
+      <a class="active" href="/features/live-project-journals/">Live project journals</a>
+      <a href="/features/project-showcase/">Project showcase</a>
+      <a href="/features/stars-and-bookmarks/">Stars and bookmarks</a>
+      <a href="/features/feedback-and-support/">Feedback and support</a>
+
+      <p class="sidebar-title">Use Cases</p>
+      <a href="/use-cases/for-students/">For students</a>
+      <a href="/use-cases/for-self-taught-developers/">For self-taught developers</a>
+      <a href="/use-cases/for-hackathon-builders/">For hackathon builders</a>
+      <a href="/use-cases/for-open-source-builders/">For open-source builders</a>
+
+      <p class="sidebar-title">Roadmap</p>
+      <a href="/roadmap/">Roadmap</a>
+    </aside>
+
+    <article class="doc-content">
+      <p class="eyebrow">Features</p>
+
+      <h1>Live project journals</h1>
+
+      <p class="lead">
+        Live project journals are progress updates inside Devmaniac live
+        projects. They help developers document what changed, what broke, what
+        improved, and what they learned while building.
+      </p>
+
+      <p>
+        A live project shows what you are building. Journals show how that
+        project grows over time.
+      </p>
+
+      <h2>What is a live project journal?</h2>
+
+      <p>
+        A journal is a written update attached to a live project. It can describe
+        a feature, bug fix, deployment, milestone, technical decision, blocker,
+        failure, or learning moment.
+      </p>
+
+      <p>
+        Instead of letting your work disappear into private notes or forgotten
+        commit messages, journals keep the project story visible.
+      </p>
+
+      <p>
+        The goal is simple:
+      </p>
+
+      <blockquote>
+        Turn coding progress into a clear timeline of proof.
+      </blockquote>
+
+      <h2>Why journals matter</h2>
+
+      <p>
+        Most portfolios only show the final result. That is useful, but it hides
+        the process.
+      </p>
+
+      <p>
+        Journals show the work behind the project. They can reveal your thinking,
+        consistency, debugging ability, technical growth, and product decisions.
+      </p>
+
+      <p>
+        A project with journals is easier to trust because visitors can see that
+        real work happened over time.
+      </p>
+
+      <h2>What journals can document</h2>
+
+      <p>
+        You can use journals to document many types of project progress:
+      </p>
+
+      <ul>
+        <li>New features</li>
+        <li>Bug fixes</li>
+        <li>Milestones</li>
+        <li>Deployment updates</li>
+        <li>Architecture decisions</li>
+        <li>UI improvements</li>
+        <li>Database changes</li>
+        <li>Authentication changes</li>
+        <li>User feedback changes</li>
+        <li>Failures and lessons learned</li>
+        <li>Next steps for the project</li>
+      </ul>
+
+      <p>
+        A journal does not need to be long. It needs to explain the update
+        clearly.
+      </p>
+
+      <h2>Journal types</h2>
+
+      <p>
+        Devmaniac journals can be used for different kinds of updates.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Journal type</th>
+            <th>Use it when</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Progress</td>
+            <td>You worked on a feature, page, API, or general improvement.</td>
+          </tr>
+          <tr>
+            <td>Milestone</td>
+            <td>You reached a meaningful checkpoint in the project.</td>
+          </tr>
+          <tr>
+            <td>Bug fix</td>
+            <td>You found and fixed a problem.</td>
+          </tr>
+          <tr>
+            <td>Deployment</td>
+            <td>You released, deployed, or updated a live version.</td>
+          </tr>
+          <tr>
+            <td>Architecture</td>
+            <td>You made a technical structure, database, or system decision.</td>
+          </tr>
+          <tr>
+            <td>Announcement</td>
+            <td>You want to share an important public update.</td>
+          </tr>
+          <tr>
+            <td>Failure</td>
+            <td>Something did not work, and you want to document what you learned.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Progress journals</h2>
+
+      <p>
+        Progress journals are for normal development updates.
+      </p>
+
+      <p>
+        Use them when you add a feature, improve a page, connect an endpoint,
+        update a flow, or make meaningful progress on the project.
+      </p>
+
+      <blockquote>
+        I added the first version of the live project creation form. Users can
+        now add a title, goal, description, status, tech stack, and project links.
+        Next, I need to improve validation and image upload handling.
+      </blockquote>
+
+      <h2>Bug fix journals</h2>
+
+      <p>
+        Bug fix journals are useful because they show real debugging work.
+      </p>
+
+      <p>
+        A good bug fix journal explains the issue, the cause, the fix, and what
+        changed after.
+      </p>
+
+      <blockquote>
+        The onboarding sync failed for some users after signup. Refreshing fixed
+        it temporarily, but the issue showed that the sync flow needed clearer
+        handling. I added a common issue note to the docs and planned a better
+        retry flow for the app.
+      </blockquote>
+
+      <p>
+        Bug fixes are not embarrassing. They are proof that you are building real
+        software, not just drawing pretty rectangles in Figma.
+      </p>
+
+      <h2>Milestone journals</h2>
+
+      <p>
+        Milestone journals are for meaningful checkpoints.
+      </p>
+
+      <p>
+        Use them when the project reaches a stage worth remembering:
+      </p>
+
+      <ul>
+        <li>First public version</li>
+        <li>First user signup</li>
+        <li>First live project created</li>
+        <li>MVP completed</li>
+        <li>First production deployment</li>
+        <li>Major redesign finished</li>
+        <li>Core feature completed</li>
+      </ul>
+
+      <blockquote>
+        Devmaniac reached its first real users today. The platform is still early,
+        but seeing builders create live projects confirms that the live project
+        direction is stronger than only focusing on finished project showcases.
+      </blockquote>
+
+      <h2>Deployment journals</h2>
+
+      <p>
+        Deployment journals explain releases and production changes.
+      </p>
+
+      <p>
+        Use them when you deploy a new version, fix a production issue, connect a
+        domain, update environment variables, or move from local development to a
+        public app.
+      </p>
+
+      <blockquote>
+        I deployed the production version and connected the custom domain. The
+        frontend is hosted on Vercel, the backend runs on Render, and the database
+        uses Neon Postgres. Next, I need to improve docs and production onboarding.
+      </blockquote>
+
+      <h2>Architecture journals</h2>
+
+      <p>
+        Architecture journals explain technical structure and decisions.
+      </p>
+
+      <p>
+        Use them when you change how the system is organized.
+      </p>
+
+      <p>
+        Good architecture journal topics:
+      </p>
+
+      <ul>
+        <li>Why you chose REST API routes</li>
+        <li>Why you separated live projects from finished projects</li>
+        <li>Why you changed database relationships</li>
+        <li>Why you added Redis or WebSockets</li>
+        <li>Why you changed authentication logic</li>
+        <li>Why you redesigned the project model</li>
+      </ul>
+
+      <blockquote>
+        I decided to keep the backend as a FastAPI REST API instead of moving
+        everything into frontend server actions. This keeps the backend reusable
+        for future mobile apps and makes the API clearer to scale later.
+      </blockquote>
+
+      <h2>Failure journals</h2>
+
+      <p>
+        Failure journals are for things that did not work.
+      </p>
+
+      <p>
+        This does not mean dumping frustration. It means explaining what went
+        wrong and what you learned.
+      </p>
+
+      <blockquote>
+        I originally focused too much on finished projects, but that weakened the
+        main product idea. Devmaniac makes more sense as a live project tracker
+        because the real value is documenting what developers are actively
+        learning and building.
+      </blockquote>
+
+      <p>
+        That is a strong journal because it shows reflection and product
+        direction.
+      </p>
+
+      <h2>What makes a good journal?</h2>
+
+      <p>
+        A good journal is specific, readable, and connected to the project.
+      </p>
+
+      <p>
+        It should usually answer:
+      </p>
+
+      <ul>
+        <li>What changed?</li>
+        <li>Why did it matter?</li>
+        <li>What problem did you face?</li>
+        <li>How did you solve it?</li>
+        <li>What did you learn?</li>
+        <li>What comes next?</li>
+      </ul>
+
+      <p>
+        You do not need to answer every question every time. But the update should
+        give enough context to be useful later.
+      </p>
+
+      <h2>What makes a weak journal?</h2>
+
+      <p>
+        Weak journals are usually too vague.
+      </p>
+
+      <p>
+        Avoid updates like:
+      </p>
+
+      <ul>
+        <li>Worked on backend</li>
+        <li>Fixed stuff</li>
+        <li>Made UI better</li>
+        <li>More progress today</li>
+        <li>Changed code</li>
+      </ul>
+
+      <p>
+        Those updates technically say something happened, but they do not explain
+        anything useful.
+      </p>
+
+      <p>
+        Better:
+      </p>
+
+      <blockquote>
+        I changed the project author response shape because the frontend needed
+        follower counts for profile previews. The old response was missing the
+        field, which caused a TypeScript error. I updated the schema and adjusted
+        the frontend type.
+      </blockquote>
+
+      <h2>How journals become proof of work</h2>
+
+      <p>
+        One journal is just one update. Many journals become a public timeline.
+      </p>
+
+      <p>
+        Over time, journals can show:
+      </p>
+
+      <ul>
+        <li>Consistency</li>
+        <li>Technical improvement</li>
+        <li>Problem-solving</li>
+        <li>Product decisions</li>
+        <li>Debugging ability</li>
+        <li>Shipping behavior</li>
+        <li>Learning through real projects</li>
+      </ul>
+
+      <p>
+        This is why journals matter. They turn hidden effort into visible proof.
+      </p>
+
+      <h2>Simple journal template</h2>
+
+      <p>
+        Use this when you do not know what to write:
+      </p>
+
+      <blockquote>
+        Today I worked on [feature or task]. I did this because [reason]. The
+        main change was [what changed]. I ran into [problem]. I solved it by
+        [solution]. Next, I plan to work on [next step].
+      </blockquote>
+
+      <p>
+        Example:
+      </p>
+
+      <blockquote>
+        Today I worked on the journal timeline for live projects. I did this
+        because users need a clear way to see project progress over time. The
+        main change was displaying entries in order with type labels and dates. I
+        ran into a layout issue on mobile. I solved it by adjusting the card
+        spacing and responsive styles. Next, I plan to add reactions and replies.
+      </blockquote>
+
+      <h2>How often should you post journals?</h2>
+
+      <p>
+        Post when something meaningful happens.
+      </p>
+
+      <p>
+        You do not need to post every tiny change. But if you are actively
+        building, a few useful updates per week can make the project feel alive.
+      </p>
+
+      <p>
+        Good moments to post:
+      </p>
+
+      <ul>
+        <li>After building a feature</li>
+        <li>After fixing a bug</li>
+        <li>After deploying</li>
+        <li>After making a technical decision</li>
+        <li>After receiving useful feedback</li>
+        <li>After changing the direction of the project</li>
+        <li>After reaching a milestone</li>
+      </ul>
+
+      <h2>What not to include in journals</h2>
+
+      <p>
+        Do not include sensitive information.
+      </p>
+
+      <p>
+        Avoid posting:
+      </p>
+
+      <ul>
+        <li>API keys</li>
+        <li>Passwords</li>
+        <li>Database URLs</li>
+        <li>Private user data</li>
+        <li>Security-sensitive implementation details</li>
+        <li>Client information you do not have permission to share</li>
+      </ul>
+
+      <p>
+        Document progress, not secrets. Public building should not become public
+        self-sabotage. 😭
+      </p>
+
+      <h2>The core idea</h2>
+
+      <p>
+        A live project journal should answer:
+      </p>
+
+      <blockquote>
+        What changed in this project, why did it matter, and what does this show
+        about my progress?
+      </blockquote>
+
+      <p>
+        If your journal answers that, it is useful.
+      </p>
+
+      <div class="next-page">
+        <span>Next</span>
+        <a href="/features/project-showcase/">Project showcase →</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Devmaniac. Built for developers who ship.</p>
+  </footer>
+</body>
+</html>
